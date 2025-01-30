@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Built for Scalability',
+    Svg: require('@site/static/img/scalable_feature.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Microservices architecture with NATS and Cassandra ensures high availability and efficient scaling.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Privacy & Security First',
+    Svg: require('@site/static/img/privacy_feature.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          End-to-end encryption, private cloud deployment, and full administrative control over infrastructure.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Cross-Platform Experience',
+    Svg: require('@site/static/img/flutter_feature.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Flutter-powered clients provide a unified experience across mobile, desktop, and web platforms.
       </>
     ),
   },
@@ -69,3 +66,5 @@ export default function HomepageFeatures(): ReactNode {
     </section>
   );
 }
+
+

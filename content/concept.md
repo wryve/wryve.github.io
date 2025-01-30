@@ -10,15 +10,16 @@ infrastructure and data. The main components include:
 
 ## Backend Architecture
 
-The server-side is built using a microservices architecture in Go, utilizing:
+The server-side is built using a microservices architecture in [Go](http://go.dev), utilizing:
 
-- **NATS** as a message bus for microservices communication.
-- **Cassandra** as a distributed database optimized for large volumes of messages.
+- [**NATS**](https://nats.io) as a message bus for microservices communication.
+- [**Cassandra**](http://cassandra.apache.org) as a distributed database optimized for large volumes of messages.
 - **S3-compatible storage integration** for secure and scalable handling of media files.
+
 
 ## Client Applications
 
-Client applications are developed using Flutter, ensuring a unified codebase and consistent UX across mobile (iOS, 
+Client applications are developed using [Flutter](https://flutter.dev), ensuring a unified codebase and consistent UX across mobile (iOS, 
 Android), desktop (Windows, macOS, Linux), and web platforms.
 
 ## Functionality
